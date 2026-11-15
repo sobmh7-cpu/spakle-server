@@ -1,9 +1,9 @@
 {
   "app": "SparkleMacro",
-  "version": "2026.13",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v2026.13/SparkleMacro_v2026.13.zip",
-  "sha256": "c9615b77548668fbe97948cb6b75899fd195b29f015f3a542730dbd202f6460b",
-  "size": 92868890,
-  "notes": "이전에 설치한 사용자의 업데이트 주소가 비어 있던 문제 수정",
+  "version": "2026.14",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v2026.14/SparkleMacro_v2026.14.zip",
+  "sha256": "74cbbc3b6593beef30f3f8cb6fde88a30a1d4c7d10eef310da7e7e1d5d5a8c90",
+  "size": 92869098,
+  "notes": "업데이트 적용 시 설치 폴더 이름을 바꾸지 못해 업데이트가 계속 실패하던 문제 수정",
   "mandatory": false
 }
