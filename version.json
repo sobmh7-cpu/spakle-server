@@ -4,6 +4,6 @@
   "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v2026.13/SparkleMacro_v2026.13.zip",
   "sha256": "c9615b77548668fbe97948cb6b75899fd195b29f015f3a542730dbd202f6460b",
   "size": 92868890,
-  "notes": "사용 설명서 이미지 글자(두부 사각형) 깨짐 수정 · 업데이트 서버 주소 기본값 추가",
+  "notes": "이전에 설치한 사용자의 업데이트 주소가 비어 있던 문제 수정",
   "mandatory": false
 }
