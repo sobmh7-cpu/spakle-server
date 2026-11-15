@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>스파클 매크로 다운로드</title>
+<meta name="description" content="스파클 매크로 설치 파일 다운로드 및 설치 안내">
+<style>
+  :root {
+    --bg: #0f1420;
+    --card: #1a2131;
+    --card2: #212a3d;
+    --text: #eef2f9;
+    --muted: #9aa8c2;
+    --accent: #4c8dff;
+    --accent-h: #3a7bf0;
+    --ok: #35c98a;
+    --border: #2b3651;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: radial-gradient(1200px 600px at 50% -10%, #1b2740 0%, var(--bg) 60%);
+    color: var(--text);
+    font-family: "Malgun Gothic", "맑은 고딕", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.65;
+    min-height: 100vh;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 56px 20px 80px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .logo {
+    width: 84px; height: 84px; margin: 0 auto 18px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 40px; border-radius: 22px;
+    background: linear-gradient(145deg, #2d63d8, #7b4cff);
+    box-shadow: 0 14px 34px rgba(76,141,255,.35);
+  }
+  h1 { font-size: 2.1rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 1.02rem; margin: 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 30px;
+    margin-bottom: 22px;
+  }
+  .version-row {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    justify-content: center; margin-bottom: 24px;
+  }
+  .pill {
+    font-size: .85rem; padding: 6px 14px; border-radius: 999px;
+    background: var(--card2); border: 1px solid var(--border); color: var(--muted);
+  }
+  .pill.ok { color: var(--ok); border-color: rgba(53,201,138,.35); }
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    width: 100%; max-width: 480px; margin: 0 auto;
+    background: linear-gradient(180deg, var(--accent), var(--accent-h));
+    color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem;
+    padding: 17px 26px; border-radius: 14px; border: none;
+    box-shadow: 0 12px 28px rgba(76,141,255,.32);
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 16px 34px rgba(76,141,255,.44); }
+  .btn:active { transform: translateY(0); }
+  .file-meta { text-align: center; color: var(--muted); font-size: .88rem; margin-top: 14px; }
+  h2 { font-size: 1.18rem; margin: 0 0 16px; display: flex; align-items: center; gap: 10px; }
+  h2 .n {
+    width: 26px; height: 26px; flex: 0 0 26px; border-radius: 8px;
+    background: var(--card2); border: 1px solid var(--border);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: .82rem; color: var(--accent); font-weight: 700;
+  }
+  ol, ul { margin: 0; padding-left: 22px; }
+  li { margin-bottom: 9px; }
+  .note {
+    background: rgba(76,141,255,.1); border: 1px solid rgba(76,141,255,.28);
+    border-radius: 12px; padding: 16px 18px; color: #cfe0ff; font-size: .95rem;
+  }
+  .warn {
+    background: rgba(255,196,76,.09); border: 1px solid rgba(255,196,76,.3);
+    border-radius: 12px; padding: 16px 18px; color: #ffe1ab; font-size: .95rem;
+  }
+  code {
+    background: var(--card2); border: 1px solid var(--border);
+    padding: 2px 7px; border-radius: 6px; font-size: .88em;
+    font-family: Consolas, "D2Coding", monospace;
+  }
+  a.link { color: var(--accent); text-decoration: none; }
+  a.link:hover { text-decoration: underline; }
+  footer {
+    text-align: center; color: var(--muted); font-size: .85rem;
+    margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border);
+  }
+  @media (max-width: 560px) {
+    .wrap { padding: 34px 16px 60px; }
+    h1 { font-size: 1.65rem; }
+    .card { padding: 22px 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">✨</div>
+    <h1>스파클 매크로</h1>
+    <p class="sub">아래 버튼을 눌러 설치 파일을 내려받은 뒤 실행하면 됩니다.</p>
+  </header>
+
+  <div class="card">
+    <div class="version-row">
+      <span class="pill ok">최신 버전 v1.0.14</span>
+      <span class="pill">Windows 10 / 11 (64비트)</span>
+      <span class="pill">자동 업데이트 지원</span>
+    </div>
+
+    <a class="btn" href="https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.14/SparkleMacro_Setup_v1.0.14.exe">
+      ⬇ 설치 파일 내려받기
+    </a>
+    <p class="file-meta">파일명: SparkleMacro_Setup_v1.0.14.exe (약 62 MB)</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="n">1</span>설치 순서</h2>
+    <ol>
+      <li>위의 <strong>설치 파일 내려받기</strong> 버튼을 클릭합니다.</li>
+      <li>브라우저가 차단하면 <strong>“계속”</strong> 또는 <strong>“유지”</strong>를 눌러 내려받기를 허용합니다.</li>
+      <li>내려받은 <code>SparkleMacro_Setup_v1.0.14.exe</code> 파일을 <strong>마우스 오른쪽 버튼 → 관리자 권한으로 실행</strong>합니다.</li>
+      <li>“Windows의 PC 보호” 경고가 뜨면 <strong>추가 정보 → 실행</strong>을 선택합니다.</li>
+      <li>설치 화면의 안내에 따라 <strong>다음</strong>을 눌러 설치를 마칩니다.</li>
+      <li>바탕 화면의 <strong>스파클 매크로</strong> 아이콘으로 실행합니다.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2><span class="n">2</span>알아두세요</h2>
+    <ul>
+      <li>설치 후에는 실행할 때마다 <strong>새 버전을 자동으로 확인</strong>합니다. 새 버전이 있으면 안내 창이 뜨고 바로 적용할 수 있습니다.</li>
+      <li>이미 예전 버전을 쓰고 계신 분도 이 설치 파일로 <strong>덮어쓰기 설치</strong>하면 최신 버전으로 맞춰집니다.</li>
+      <li>설치 중 백신 프로그램이 경고를 띄우면 <strong>허용</strong>을 선택해 주세요.</li>
+    </ul>
+    <div class="warn" style="margin-top:16px;">
+      설치 파일은 반드시 이 페이지의 버튼으로만 내려받으세요. 출처가 불분명한 파일은 실행하지 마세요.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="n">3</span>수동 설치가 필요한 경우</h2>
+    <div class="note">
+      예전에 <code>2026.xx</code> 형식 버전을 설치하셨던 분은 버전 번호가 작아져 자동 업데이트 안내가 뜨지 않을 수 있습니다.
+      이 경우 위의 설치 파일을 직접 내려받아 <strong>한 번만 수동으로 설치</strong>해 주시면 이후부터는 자동 업데이트가 정상 동작합니다.
+    </div>
+  </div>
+
+  <footer>
+    스파클 매크로 · 모든 릴리스와 이전 버전은
+    <a class="link" href="https://github.com/sobmh7-cpu/spakle-server/releases">릴리스 페이지</a>에서 확인할 수 있습니다.
+  </footer>
+
+</div>
+</body>
+</html>
