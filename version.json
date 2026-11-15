@@ -1,0 +1,9 @@
+{
+  "app": "SparkleMacro",
+  "version": "2026.11",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v2026.11/SparkleMacro_v2026.11.zip",
+  "sha256": "3208f85b28509fa7c45ba5cbbbb84f731827ff56273a95de8951cc91b9e12b44",
+  "size": 92864488,
+  "notes": "사용 설명서 이미지 글자(두부 사각형) 깨짐 수정",
+  "mandatory": false
+}
