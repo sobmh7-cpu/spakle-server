@@ -1,9 +1,10 @@
 {
   "app": "SparkleMacro",
-  "version": "1.0.16",
+  "mandatory": false,
+  "notes": "앱 이름 표기 통일(스파클매크로), 로고·아이콘 확대, 종료 동작/문구 개선",
   "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.16/SparkleMacro_v1.0.16.zip",
   "sha256": "aa087e53c2a7d672fc1d627d0b468e6d61d6c046047bb6513258d2db666f3e62",
   "size": 105752481,
-  "notes": "앱 이름 표기 통일(스파클매크로), 로고·아이콘 확대, 종료 동작/문구 개선",
-  "mandatory": false
+  "version": "1.0.16",
+  "signature": "YHzP4pi0lSdrjZtXPLMxxGA9nwEIf2Hxg5bbvSRB+cxkLVnJ613yFcfwTB3jBmf2yoIGJllYkb6wfU1cpuhYAg=="
 }
