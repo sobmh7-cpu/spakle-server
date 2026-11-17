@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "예약(스케줄러) 안정화: 설정 영구 저장·중복 방지, '시퀀스 시작' 동작 추가, '.spk 불러와 시작하기'로 명칭 변경. 실행 중 현재 단계가 접힌 그룹에 있을 때 그룹 헤더 강조 개선. 창 가로 폭 최소화 및 종료 확인창 글자 잘림 수정.",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.17/SparkleMacro_v1.0.17.zip",
-  "sha256": "d718bcaba99cc5ec38ab09830540a9115350a553dd44d55062d1784f8e036314",
-  "signature": "ez85t5eonPbwoiOwKJwHBsFFJ1jEY3IJDVyW35t1S2C3747JkcB4NzmKPfvJ5R6ukWGyJ0oOsj/89OaI7+dECw==",
-  "size": 113916200,
-  "version": "1.0.17"
+  "notes": "v1.0.17 배포본에서 firebase_config.json이 누락되어 로그인이 불가했던 문제 수정. 예약(스케줄러) 안정화: 설정 영구 저장·중복 방지, '시퀀스 시작' 동작 추가, '.spk 불러와 시작하기'로 명칭 변경. 실행 중 현재 단계가 접힌 그룹에 있을 때 그룹 헤더 강조 개선.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.18/SparkleMacro_v1.0.18.zip",
+  "sha256": "0affb4ea18145e545029614039c32a11861e2220a9f0cfa16a2617b2429c0dc5",
+  "size": 113916456,
+  "version": "1.0.18",
+  "signature": "HyLoFE2NYWKhVIHQiR38xEJvPuQRtF35KFNPhwKq4QH4GTX6uZN/073pY49lz/n2GfBn3KUJE7tQIB+1DgIwAA=="
 }
