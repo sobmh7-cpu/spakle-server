@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "v1.0.17 배포본에서 firebase_config.json이 누락되어 로그인이 불가했던 문제 수정. 예약(스케줄러) 안정화: 설정 영구 저장·중복 방지, '시퀀스 시작' 동작 추가, '.spk 불러와 시작하기'로 명칭 변경. 실행 중 현재 단계가 접힌 그룹에 있을 때 그룹 헤더 강조 개선.",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.18/SparkleMacro_v1.0.18.zip",
-  "sha256": "0affb4ea18145e545029614039c32a11861e2220a9f0cfa16a2617b2429c0dc5",
-  "size": 113916456,
-  "version": "1.0.18",
-  "signature": "HyLoFE2NYWKhVIHQiR38xEJvPuQRtF35KFNPhwKq4QH4GTX6uZN/073pY49lz/n2GfBn3KUJE7tQIB+1DgIwAA=="
+  "notes": "로그인 전 자동 업데이트 확인 추가: 설정 파일 누락 등으로 로그인 화면에 갇혀도 프로그램 시작 시 새 버전을 자동으로 확인해 복구할 수 있습니다. v1.0.17 배포본의 firebase_config.json 누락 문제 수정 포함.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.19/SparkleMacro_v1.0.19.zip",
+  "sha256": "e3b66e43cb576a185c669908b94016a051bb2e74973aa02b18723f57ca86d827",
+  "size": 113919179,
+  "version": "1.0.19",
+  "signature": "jjZ0kbtDC7IFgP1ifQoPMWZhLylznmftQyY4WD3pTYgyy3DsvVJ5O/JtNiKLx9sVyBX9p9IDZAlX2pkVn850Cw=="
 }
