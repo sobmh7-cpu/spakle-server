@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "앱 이름 표기 통일(스파클매크로), 로고·아이콘 확대, 종료 동작/문구 개선",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.16/SparkleMacro_v1.0.16.zip",
-  "sha256": "aa087e53c2a7d672fc1d627d0b468e6d61d6c046047bb6513258d2db666f3e62",
-  "size": 105752481,
-  "version": "1.0.16",
-  "signature": "YHzP4pi0lSdrjZtXPLMxxGA9nwEIf2Hxg5bbvSRB+cxkLVnJ613yFcfwTB3jBmf2yoIGJllYkb6wfU1cpuhYAg=="
+  "notes": "예약(스케줄러) 안정화: 설정 영구 저장·중복 방지, '시퀀스 시작' 동작 추가, '.spk 불러와 시작하기'로 명칭 변경. 실행 중 현재 단계가 접힌 그룹에 있을 때 그룹 헤더 강조 개선. 창 가로 폭 최소화 및 종료 확인창 글자 잘림 수정.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.17/SparkleMacro_v1.0.17.zip",
+  "sha256": "d718bcaba99cc5ec38ab09830540a9115350a553dd44d55062d1784f8e036314",
+  "signature": "ez85t5eonPbwoiOwKJwHBsFFJ1jEY3IJDVyW35t1S2C3747JkcB4NzmKPfvJ5R6ukWGyJ0oOsj/89OaI7+dECw==",
+  "size": 113916200,
+  "version": "1.0.17"
 }
