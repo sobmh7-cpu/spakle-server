@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "로그인 전 자동 업데이트 확인 추가: 설정 파일 누락 등으로 로그인 화면에 갇혀도 프로그램 시작 시 새 버전을 자동으로 확인해 복구할 수 있습니다. v1.0.17 배포본의 firebase_config.json 누락 문제 수정 포함.",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.19/SparkleMacro_v1.0.19.zip",
-  "sha256": "e3b66e43cb576a185c669908b94016a051bb2e74973aa02b18723f57ca86d827",
-  "size": 113919179,
-  "version": "1.0.19",
-  "signature": "jjZ0kbtDC7IFgP1ifQoPMWZhLylznmftQyY4WD3pTYgyy3DsvVJ5O/JtNiKLx9sVyBX9p9IDZAlX2pkVn850Cw=="
+  "notes": "로그인 유지 개선: 프로그램을 오래 켜 두어도 로그인이 풀리지 않도록 자동으로 갱신합니다. 관리자 가입자 현황에서 사용자별 메모를 적고 고칠 수 있습니다.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.20/SparkleMacro_v1.0.20.zip",
+  "sha256": "2d387019fda15232b33333db643e5d7bab4fe16d693d29f6d08091b9fce56208",
+  "size": 117176793,
+  "version": "1.0.20",
+  "signature": "cgon5T1dMmT2xgiLPu84VDUVTmvpwwDmDVsI0jTDmGBpyDwleVEgkMxoF/qAA0GS0b5WdXMq47IXwm6xYk4BBA=="
 }
