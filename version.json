@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "로그인 유지 개선: 프로그램을 오래 켜 두어도 로그인이 풀리지 않도록 자동으로 갱신합니다. 관리자 가입자 현황에서 사용자별 메모를 적고 고칠 수 있습니다.",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.20/SparkleMacro_v1.0.20.zip",
-  "sha256": "2d387019fda15232b33333db643e5d7bab4fe16d693d29f6d08091b9fce56208",
-  "size": 117176793,
-  "version": "1.0.20",
-  "signature": "cgon5T1dMmT2xgiLPu84VDUVTmvpwwDmDVsI0jTDmGBpyDwleVEgkMxoF/qAA0GS0b5WdXMq47IXwm6xYk4BBA=="
+  "notes": "단계 편집 버그 수정: 다른 그룹에 붙여넣으면 그룹이 따라오거나 쪼개지던 문제, 붙는 위치가 엉뚱하던 문제를 고쳤습니다. 붙여넣기·잘라내기·단계 추가·수정도 Ctrl+Z 로 되돌릴 수 있고, ▲/▼ 로 그룹 안 순서를 바꿀 수 있습니다. 감시 단계 복사 오류, 실행 중 편집으로 매크로가 엉뚱하게 이동하던 문제, 저장 중 파일이 깨질 수 있던 문제, Ctrl 키가 눌린 채 남을 수 있던 문제, 예약 알림이 여러 번 오던 문제 등을 고쳤습니다.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.21/SparkleMacro_v1.0.21.zip",
+  "sha256": "5bc5a6809a4564967d68ab4d611d3f5370064080073d3a30eac36fb8fff4d422",
+  "size": 117186138,
+  "version": "1.0.21",
+  "signature": "LAut8yMdsBghkcibBR5JnekmS2he+dQfus4yDTGdtC7ZC6as+8cIKhKHzJ7XMocFYlkaAvApUFnMOGLghK6/Dg=="
 }
