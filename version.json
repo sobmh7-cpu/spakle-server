@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "단계 순서를 바꿔도 '이동' 단계가 가리키는 곳이 어긋나지 않게 바꿨습니다. 프로그램 내부 구조를 정리해 더 안정적으로 고칠 수 있게 했습니다.",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.23/SparkleMacro_v1.0.23.zip",
-  "sha256": "a864cd320e163e4e7b38da0b420fc99a1332baa836d3606361178964f61b0398",
-  "size": 117223677,
-  "version": "1.0.23",
-  "signature": "gBDucqTQnCNVLA426CZ+5ZvJ8eagK96P7lCFF/BVH6iYbZOW5kZNpYrAlGMbOAtlbdNtECvW4pWyI2CIqVnNDg=="
+  "notes": "🔴 녹화: 직접 클릭·키 입력을 해 보이면 그대로 단계와 그룹으로 만들어 줍니다. 실행 방식(🎮 게임 / 🪟 일반 프로그램 / 🖥️ 화면에 띄워 두고)을 고르면 창을 가려 둔 채로 돌릴 수 있고, 🎮 게임 방식은 손을 쓰는 동안 기다렸다가 안전하게 누릅니다. 💬 명령으로 말로 시퀀스를 이어 실행합니다. 프로그램 중복 실행 방지, 업데이트 확인 창 정리 등 여러 문제를 고쳤습니다.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.24/SparkleMacro_v1.0.24.zip",
+  "sha256": "98a08d9315334a2d74ea53f5d04a14adf6ec31d2555828ca81ddedf2c824be62",
+  "size": 117284581,
+  "version": "1.0.24",
+  "signature": "BfziyGqpnmXw9+ScAAULJBlvTcHiZw9y3qA7iEne703F75z9AUlUJzWHYK8yP4Q0or45l6QDhErbOhnva7HQAw=="
 }
