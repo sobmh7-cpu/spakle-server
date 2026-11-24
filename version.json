@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "🛞 마우스 휠 단계가 생겼고, 🔴 녹화할 때 굴린 휠도 기록합니다. 다시 켜도 고른 대상 창을 기억해 자동으로 다시 지정합니다. 🪟 일반 프로그램 방식에서 대상 프로그램이 앞으로 튀어나오면 원래 보던 창으로 되돌리고, 가려진 크롬·엣지에 클릭·드래그 신호가 더 잘 들어가며 누른 뒤 마우스 올림 색이 남지 않습니다.",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.25/SparkleMacro_v1.0.25.zip",
-  "sha256": "bbb77dda390bb184c4eedbed827c58ac29144ee1165ea48bc71872b893d96e50",
-  "size": 117295092,
-  "version": "1.0.25",
-  "signature": "4Hr3r/qIbLu6ZxvuT/tm89OUk4oNIKhU6KhbA5J0xbGKN+2hHwslNaNfKnocq1NyNFY9XHxL8rGxF88RmKv7Ag=="
+  "notes": "❓ 튜토리얼과 🌱 간단 모드가 생겼고, 화면을 초보자도 쓰기 쉽게 정리했습니다. 동작을 고르면 꼭 확인할 칸이 깜빡이고, 추가·수정·저장 상태를 한눈에 볼 수 있습니다. 감시·예약 단계도 그룹으로 묶고 켜고 끌 수 있으며, 예약 안에 단계를 만들어 실행하거나 그룹만 골라 실행합니다. 대상 창·모니터 안에서만 찾고, 그림을 잡으면 그 주변을 찾을 영역으로 자동으로 정합니다. 녹화가 친 글자를 한 단계로 묶고 단계 이름에 창 이름을 적으며, 저장 안 한 작업을 자동으로 보관합니다.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.26/SparkleMacro_v1.0.26.zip",
+  "sha256": "5579202f1a8dc41fb95cf89bf9bb8333b24c623da70100a205af11e90f846fdc",
+  "size": 117396079,
+  "version": "1.0.26",
+  "signature": "UPiY/e5Y1yvKTovuJLqJLlfYd5DSdeoi40rEv2NvzAKgrDvlFSLPEG6LXkqba21NHCApZwoPXvidnB+cjfZdDw=="
 }
