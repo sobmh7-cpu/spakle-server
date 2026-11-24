@@ -1,10 +1,10 @@
 {
   "app": "SparkleMacro",
   "mandatory": false,
-  "notes": "❓ 튜토리얼과 🌱 간단 모드가 생겼고, 화면을 초보자도 쓰기 쉽게 정리했습니다. 동작을 고르면 꼭 확인할 칸이 깜빡이고, 추가·수정·저장 상태를 한눈에 볼 수 있습니다. 감시·예약 단계도 그룹으로 묶고 켜고 끌 수 있으며, 예약 안에 단계를 만들어 실행하거나 그룹만 골라 실행합니다. 대상 창·모니터 안에서만 찾고, 그림을 잡으면 그 주변을 찾을 영역으로 자동으로 정합니다. 녹화가 친 글자를 한 단계로 묶고 단계 이름에 창 이름을 적으며, 저장 안 한 작업을 자동으로 보관합니다.",
-  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.26/SparkleMacro_v1.0.26.zip",
-  "sha256": "5579202f1a8dc41fb95cf89bf9bb8333b24c623da70100a205af11e90f846fdc",
-  "size": 117396079,
-  "version": "1.0.26",
-  "signature": "UPiY/e5Y1yvKTovuJLqJLlfYd5DSdeoi40rEv2NvzAKgrDvlFSLPEG6LXkqba21NHCApZwoPXvidnB+cjfZdDw=="
+  "notes": "감시가 작동하면 작업은 하던 단계를 마치고 잠시 멈췄다가 감시가 끝나면 이어서 해서 순서가 꼬이지 않습니다. 창이 조금 더 크게 열리고, 테두리를 끌어 크기를 바꾸는 자리가 화면 배율에서 어긋나던 문제를 고쳤습니다.",
+  "package_url": "https://github.com/sobmh7-cpu/spakle-server/releases/download/v1.0.27/SparkleMacro_v1.0.27.zip",
+  "sha256": "9a6bcb1611f9af44ef67249ba76a55ad119698333287d370dd71658ef7550c1b",
+  "size": 117399105,
+  "version": "1.0.27",
+  "signature": "u2o/osBZR4u9xMOaU+icEWYlIza7oF9imfW/C1QNgsX7I0Th3414XmWNdbdelNiJp19BeD90vwZrpnQSXyXZAw=="
 }
